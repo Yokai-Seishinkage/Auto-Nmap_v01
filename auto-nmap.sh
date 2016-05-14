@@ -34,7 +34,7 @@ clear
 
 echo "$banner"
 echo ""
-echo "Please choose a scan.(1-7)"
+echo "Please choose a scan.(0-9)"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "|1.) Basic Fast Scan (100 ports)          |"
 echo "|2.) OS and Service Version Detection     |"
@@ -116,7 +116,7 @@ exit 0
 fi
 
 ## Exit Script.
-if [ "$SCAN" == "10" ]
+if [ "$SCAN" == "0" ]
 then
 clear
 exit 0
