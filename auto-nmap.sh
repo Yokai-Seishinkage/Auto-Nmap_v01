@@ -37,10 +37,7 @@ echo ""
 echo "Please choose a scan.(0-9)"
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 echo "|1.) Basic Fast Scan (100 ports)          |"
-echo "|2.) OS and Service Version Detection     |"
-echo "|3.) Aggressive Basic Scan (10000 ports)  |"
-echo "|4.) Stateless or Stateful Host Discovery |"
-echo "|5.) Scan UDP and Traceroute              |"
+echo "|2.) OS, Service Detection & whois        |"
 echo "|6.) Comprehensive Scan (slow)            |"
 echo "|7.) Sequential Aggressive Basic Scan     |"
 echo "|8.) Scan for DDoS Reflectors             |"
@@ -63,6 +60,7 @@ fi
 if [ "$SCAN" == "2" ]
 then
 nmap $IP -A -sV -T4 -vv
+whois $IP
 exit 0
 fi
 
