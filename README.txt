@@ -8,7 +8,7 @@ This bash script automates Nmap by giving 10 reasonably diverse scanning options
 
 ## REQUIREMENTS ##
 
-This tool requires that you have Nmap installed. You must be root to use this tool.
+This tool requires that you have Nmap, traceroute, and whois installed. You must be root to use this tool.
 
 ## USAGE ##
 
