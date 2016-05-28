@@ -1,14 +1,22 @@
 ## INSTALLATION ##
 
 This code comes ready to use as a bash shell script.
+Make the file executable.
+
+   chmod +x auto-nmap.sh
 
 ## DESCRIPTION ##
 
-This bash script automates Nmap by giving 10 reasonably diverse scanning options.
+This bash script automates Nmap by giving reasonably diverse scanning options.
 
 ## REQUIREMENTS ##
 
-This tool requires that you have Nmap, traceroute, and whois installed. You must be root to use this tool.
+You must be root to use this tool.
+
+#Tools you need preinstalled#
+nmap
+traceroute
+whois
 
 ## USAGE ##
 
